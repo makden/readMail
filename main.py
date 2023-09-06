@@ -6,8 +6,8 @@ from bs4 import BeautifulSoup
 import re
 
 
-mail_pass = "Den-4242"
-username = "mail@z3x.ru"
+mail_pass = ""
+username = ""
 imap_server = "imap.beget.com"
 
 imap = imaplib.IMAP4_SSL(imap_server,993)
